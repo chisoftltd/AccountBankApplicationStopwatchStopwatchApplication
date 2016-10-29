@@ -62,7 +62,8 @@ public class MeasurementMain {
            System.out.println(" Measurement unit : " + myMeasurement[i].getUnit());
             System.out.println(" Measurement value : " + myMeasurement[i].getValue());
             System.out.println(" Measurement string : " + myMeasurement[i].toString());
-            System.out.println(" Measurement : " + myMeasurement[(int)(Math.random() * 1)].hasSameUnit(myMeasurement[(int)(Math.random() * 1)]));
+            System.out.println(" Measurement : " 
+                    + myMeasurement[(int)(Math.random() * 1)].hasSameUnit(myMeasurement[(int)(Math.random() * 1)]));
          
         }
     }
